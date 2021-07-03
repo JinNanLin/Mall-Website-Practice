@@ -1,0 +1,171 @@
+/* 列表页专有的css */
+.sk {
+    /* 绝对定位 */
+    position: absolute;
+    /* 左边框 */
+    border-left: 1px solid #c81523;
+    /* 左侧距离 */
+    left: 190px;
+    /* 顶部距离 */
+    top: 40px;
+    /* 距离 */
+    padding: 3px 0 0 14px;
+}
+.sk-list {
+    /* 左浮动 */
+    float: left;
+}
+.sk-list ul li {
+    /* 左浮动 */
+    float: left;
+}
+.sk-list ul li a {
+    /* 转换为块元素 */
+    display: block;
+    /* 行高 */
+    line-height: 47px;
+    /* 左右各30px */
+    padding: 0 30px;
+    /* 字体大小 */
+    font-size: 16px;
+    /* 加粗 */
+    font-weight: 700;
+    /* 颜色 */
+    color: #333;
+}
+.sk-con {
+    /* 左浮动 */
+    float: left;
+}
+.sk-con ul li {
+    /* 左浮动 */
+    float: left;
+}
+.sk-con ul li a {
+    /* 转换为块元素 */
+    display: block;
+    /* 行高 */
+    line-height: 49px;
+    /* 左右各30px */
+    padding: 0 20px;
+    /* 字体大小 */
+    font-size: 14px;
+}
+.sk-con ul li:last-child a::after {
+    /* 指定字体 */
+    font-family: 'icomoon';
+    /* 字体图标编号 */
+    content: '\e900';
+}
+.sk-bd ul li {
+    /* 超出隐藏 */
+    overflow: hidden;
+    /* 左浮动 */
+    float: left;
+    /* 距离右侧 */
+    margin-right: 13px;
+
+
+}
+.sk-bd ul li:nth-child(4n) {
+    /* 四的倍数的li去处右侧距离 */
+    margin-right: 0;
+}
+.sk-bd ul li:hover {
+    /* 加边框 */
+    border: 1px solid #c81523;
+}
+.sk-goods {
+    /* 相对定位 */
+    position: relative;
+    /* 左浮动 */
+    float: left;
+    /* 宽度 */
+    width: 288px;
+    /* 高度 */
+    height: 458px;
+    /* 加透明边框 */
+    border: 1px solid transparent;
+    /* 内边距 */
+    margin: 0 12px 15px 0;
+}
+.sk-goods-title {
+    /* 字体大小 */
+    font-size: 14px;
+    /* 颜色 */
+    color: #666;
+    /* 不加粗 */
+    font-weight: 400;
+    /* 距离各10px */
+    padding: 10px;
+}
+.sk-goods-price {
+    /* 左右距离10px */
+    padding: 0 10px;
+}
+.sk-goods-price em {
+    /* 字体大小 */
+    font-size: 22px;
+    /* 颜色 */
+    color: #e60012;
+}
+.sk-goods-price del {
+    /* 字体大小 */
+    font-size: 14px;
+    /* 加粗 */
+    font-weight: 700;
+    /* 颜色 */
+    color: #a4a4a4;
+}
+.sk-goods-progress {
+    /* 左右10px */
+    padding: 0 10px;
+}
+.bar {
+    /* 转换为行内快元素 */
+    display: inline-block;
+    /* 宽度 */
+    width: 130px;
+    /* 高度 */
+    height: 10px;
+    /* 边框 */
+    border: 1px solid #b1191a;
+    /* 垂直中线 */
+    vertical-align: middle;
+    /* 圆角 */
+    border-radius: 8px;
+    /* 左右5px */
+    margin: 0 5px;
+}
+.bar-in {
+    /* 宽度 */
+    width: 87%;
+    /* 高度 */
+    height: 10px;
+    /* 背景颜色 */
+    background-color: #e60012;
+}
+.sk-goods-progress em {
+    /* 颜色 */
+    color: #c81623;
+}
+.sk-goods-buy {
+    /* 绝对定位 */
+    position: absolute;
+    /* 距离底部 */
+    bottom: 0;
+    /* 宽度 */
+    width: 100%;
+    /* 高度 */
+    height: 50px;
+    /* 背景颜色 */
+    background-color: #B1191A;
+    /* 颜色 */
+    color: #fff;
+    /* 垂直居中 */
+    text-align: center;
+    /* 行高 */
+    line-height: 50px;
+    /* 字体大小 */
+    font-size: 20px
+}
