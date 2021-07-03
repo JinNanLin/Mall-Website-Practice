@@ -1,0 +1,340 @@
+/* main模块开始 */
+.main {
+    /* 宽度 */
+    width: 980px;
+    /* 高度 */
+    height: 455px;
+    /* 距离左侧距离 */
+    margin-left: 220px;
+    /* 距离顶部距离 */
+    margin-top: 10px;
+}
+.focus {
+    /* 左浮动 */
+    float: left;
+    /* 宽度 */
+    width: 721px;
+    /* 高度 */
+    height: 455px;
+}
+.newflash {
+    /* 右浮动 */
+    float: right;
+    /* 宽度 */
+    width: 250px;
+    /* 高度 */
+    height: 455px;
+}
+.news {
+    /* 高度 */
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    /* 高度 */
+    height: 33px;
+    /* 行高 */
+    line-height: 33px;
+    /* 下边框点线 */
+    border-bottom: 1px dotted #e4e4e4;
+    /* 左右各距离15px上下0 */
+    padding: 0 15px;
+}
+.news-hd h5 {
+    /* 左浮动 */
+    float: left;
+    /* 字体大小 */
+    font-size: 14px;
+}
+.news-hd .more {
+    /* 右浮动 */
+    float: right;
+}
+.news-hd .more::after {
+    /* 字体格式 */
+    font-family: 'icomoon';
+    /* 字体图标编号 */
+    content: '\e902';
+}
+.news-bd ul li {
+    /* 高度 */
+    height: 24px;
+    /* 行高 */
+    line-height: 24px;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* 强制一行显示 */
+    white-space: nowrap;
+    /* 超出用省略号显示 */
+    text-overflow: ellipsis;
+}
+.news-bd {
+    /* 距离盒子左侧5px顶部15px其余0 */
+    padding: 5px 15px 0;
+}
+.lifeservice {
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* 高度 */
+    height: 209px;
+    /* 边框 */
+    border: 1px solid #e4e4e4;
+    /* 距离上个盒子距离为0 */
+    border-top: 0;
+}
+.lifeservice ul {
+    /* 宽度 */
+    width: 260px;
+}
+.lifeservice ul li {
+    /* 左浮动 */
+    float: left;
+    /* 宽度 */
+    width: 63px;
+    /* 高度 */
+    height: 71px;
+    /* 右边框 */
+    border-right: 1px solid #e4e4e4;
+    /* 下边框 */
+    border-bottom: 1px solid #e4e4e4;
+    /* 文字居中对齐 */
+    text-align: center;
+}
+.lifeservice ul li i {
+    /* 装换为行内快元素 */
+    display: inline-block;
+    /* 宽度 */
+    width: 24px;
+    /* 高度 */
+    height: 28px;
+    /* 距离顶部距离 */
+    margin-top: 12px;
+}
+.lifeservice .li1 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -17px -16px;
+}
+.lifeservice .li2 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -78px -16px;
+}
+.lifeservice .li3 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -141px -16px;
+}
+.lifeservice .li4 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -205px -16px;
+}
+.lifeservice .li5 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -17px -88px;
+}
+.lifeservice .li6 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -78px -88px;
+}
+.lifeservice .li7 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -141px -88px;
+}
+.lifeservice .li8 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -205px -88px;
+}
+.lifeservice .li9 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -17px -158px;
+}
+.lifeservice .li10 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -78px -158px;
+}
+.lifeservice .li11 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -141px -158px;
+}
+.lifeservice .li12 i{
+    /* 添加精灵图 */
+    background: url(../images/icons.png) no-repeat;
+    /* 定位精灵图所需要图标的位置 */
+    background-position: -205px -158px;
+}
+.bargain {
+    /* 距离顶部距离 */
+    margin-top: 5px;
+}
+/* 结束 */
+
+/* 推荐模块开始 */
+.recom {
+    /* 高度 */
+    height: 163px;
+    background-color: #ebebeb;
+    /* 距离上个盒子距离 */
+    margin-top: 12px;
+}
+.recom-hd {
+    /* 左浮动 */
+    float: left;
+    /* 高度 */
+    height: 163px;
+    /* 宽度 */
+    width: 205px;
+    /* 背景颜色 */
+    background-color: #5c5251;
+    /* 文字居中对齐 */
+    text-align: center;
+    /* 行高 */
+    line-height: 163px;
+}
+.recom-bd {
+    /* 左浮动 */
+    float: left;
+}
+.recom-bd ul li {
+    /* 相对定位 */
+    position: relative;
+    /* 左浮动 */
+    float: left;
+}
+.recom-bd ul li img {
+    /* 宽度 */
+    width: 248px;
+    /* 高度 */
+    height: 163px;
+}
+/* 选择前面3个li标签 */
+.recom-bd ul li:nth-child(-n+3)::after {
+    content: '';
+    /* 绝对定位 */
+    position: absolute;
+    /* 距离右侧 */
+    right: 0;
+    /* 距离顶部 */
+    top: 10px;
+    /* 宽度 */
+    width: 1px;
+    /* 高度 */
+    height: 145px;
+    /* 背景颜色 */
+    background-color: #ddd;
+}
+/* 结束 */
+/* 家用电器模块开始 */
+.box-hd {
+    /* 高度 */
+    height: 30px;
+    /* 添加下边框 */
+    border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+    /* 左浮动 */
+    float: left;
+    /* 字体大小 */
+    font-size: 18px;
+    /* 颜色 */
+    color: #c81623;
+    /* 不加粗 */
+    font-weight: 400;
+}
+.tab-list {
+    /* 右浮动 */
+    float: right;
+    /* 行高 */
+    line-height: 30px;
+}
+.tab-list ul li {
+    /* 左浮动 */
+    float: left;
+}
+.tab-list span {
+    /* 左右各加5px的距离 */
+    margin: 0 15px;
+}
+.floor .w {
+    /* 距离顶部距离 */
+    margin-top: 30px;
+}
+.box-bd {
+    /* 高度 */
+    height: 361px;
+}
+.tab-list-item > div {
+    /* 高度 */
+    height: 361px;
+    /* 左浮动 */
+    float: left;
+}
+.col-210 {
+    /* 宽度 */
+    width: 210px;
+    /* 背景颜色 */
+    background-color: #f9f9f9;
+    /* 水平居中 */
+    text-align: center;
+}
+.col-210 ul {
+    /* 距离盒子左侧 */
+    padding-left: 12px;
+}
+.col-210 ul li {
+    /* 左浮动 */
+    float: left;
+    /* 宽度 */
+    width: 85px;
+    /* 高度 */
+    height: 34px;
+    /* 下边框 */
+    border-bottom: 1px solid #ccc;
+    /* 文字水平居中 */
+    text-align: center;
+    /* 行高 */
+    line-height: 33px;
+    /* 距离文字右侧 */
+    margin-right: 10px;
+}
+.col-329 {
+    /* 宽度 */
+    width: 327px;
+}
+.col-221 {
+    /* 宽度 */
+    width: 221px;
+    /* 右边框 */
+    border-right: 1px solid #ccc;
+}
+.col-219 {
+    /* 宽度 */
+    width: 219px;
+}
+.bb {
+    /* 转换为块元素 */
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转化为块级元素 */
+    display: block;
+    /* 下边框 */
+    border-bottom: 1px solid #ccc;
+}
+/* 结束 */
